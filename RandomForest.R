@@ -10,7 +10,7 @@ head(mushroomData)
 dim(mushroomData)
 str(mushroomData)
 
-#S2: sample 80%
+#S2: set training and testing data
 mushroom=mushroomData[order(runif(8124)),]
 mushroom_train=mushroom[1:6000,]
 mushroom_test=mushroom[6001:8124,]
